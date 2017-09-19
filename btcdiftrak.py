@@ -11,7 +11,6 @@ class TelegramBot():
         # this allows quicker access to the Dispatcher used by 'Updater'
         dispatcher = updater.dispatcher
     
-    def start()
 
 
 class BlockchainInfo():
@@ -53,4 +52,3 @@ class BlockchainInfo():
         stringData = data.decode('utf-8')
         self.lasthash = stringData
         return '%s Gigahash' % stringData
-    
