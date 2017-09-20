@@ -42,7 +42,7 @@ class BlockchainInfo():
             msg = 'Difficulty increase by %s' % str(increase)
         elif dataFloat < self.lastdiff:
             decrease = self.lastdiff - dataFloat
-            msg = 'DIFFICULTY DECREASE BY %s START FUCKING MINING AND BUYING BOYS' % str(decrease)
+            msg = 'DIFFICULTY DECREASE BY %s START .....' % str(decrease)
         self.lastdiff = dataFloat
         return dataFloat, msg
 
